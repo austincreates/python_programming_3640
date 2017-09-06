@@ -35,4 +35,8 @@ new_time_min = 52 + 38 - 60
 new_time_min_secs = new_time_min + seconds/100
 print (new_time_min_secs)
 print("Therefore, new time is 7:30:06")
+increase = 89/82
+#print (increase)
+increase = round (increase, 1)
+print ("The percent increase of the average scores is %.1f %%" % increase)
 
