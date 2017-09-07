@@ -37,5 +37,5 @@ print (new_time_min_secs)
 print("Therefore, new time is 7:30:06")
 increase = (89/82 - 1) * 100
 #print (increase)
-print ("The percent increase of the average scores is approximately %.1f %%" % increase)
+print ("The percent increase of the average scores is approximately {:.1f}%." .format (increase))
 
