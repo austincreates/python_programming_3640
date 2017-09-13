@@ -1,0 +1,2 @@
+class = math.sqrt(25)
+print class
