@@ -19,17 +19,21 @@ def arc(t, r, angle):
 
 def spiral(t, loops):
     #t.lt()
-    r = 10
+    r = 1
     angle = 90
     for i in range(loops):
         arc(t, r, angle)
-        r += 10
-        angle -= 1
+        r += 1
+        if angle >1:
+            angle -= 1
+        else:
+            angle = angle/2
+        
         
         
         
 
-spiral(a, 20)
+spiral(a, 1000)
 
 turtle.mainloop()
 
