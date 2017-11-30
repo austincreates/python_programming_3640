@@ -7,7 +7,7 @@ def Nim():
     print ("The size of the pile is {} marbles.".format(size))
     if random.randrange(0, 2) == 0:
         first = "computer"
-        next = "human"
+        nextt = "human"
         print ("The computer will go first.")
     else: 
         first = "human"
